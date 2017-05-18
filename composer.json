@@ -1,0 +1,40 @@
+{
+  "name": "chrisshick/{REPLACE}",
+  "description": "{REPLACE}",
+  "type": "cakephp-plugin",
+  "keywords": [
+    "chrisShick",
+    "cakephp"
+  ],
+  "homepage": "https://github.com/chrisShick/{REPLACE}",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Chris Hickingbottom",
+      "homepage": "http://github.com/chrisShick",
+      "role": "Developer"
+    }
+  ],
+  "support": {
+    "issues": "https://github.com/chrisShick/{REPLACE}/issues",
+    "source": "https://github.com/chrisShick/{REPLACE}"
+  },
+  "require": {
+    "cakephp/cakephp": "~3.4"
+  },
+  "require-dev": {
+    "cakephp/cakephp-codesniffer": "^2.1",
+    "phpunit/phpunit": "<6.0",
+    "friendsofcake/cakephp-test-utilities": "dev-master"
+  },
+  "autoload": {
+    "psr-4": {
+      "chrisShick\\{REPLACE}\\": "src"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "chrisShick\\{REPLACE}\\Test\\": "tests"
+    }
+  }
+}
